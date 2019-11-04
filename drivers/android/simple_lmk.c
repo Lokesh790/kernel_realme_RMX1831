@@ -123,7 +123,11 @@ static unsigned long find_victims(int *vindex, short target_adj)
 
 		/* Keep track of the number of pages that have been found */
 <<<<<<< HEAD
+<<<<<<< HEAD
 		pages_found += tasksize;
+=======
+		pages_found += victims[*vindex].size;
+>>>>>>> a39d0467b6d1... simple_lmk: Clean up some code style nitpicks
 =======
 		pages_found += victims[*vindex].size;
 >>>>>>> a39d0467b6d1... simple_lmk: Clean up some code style nitpicks
