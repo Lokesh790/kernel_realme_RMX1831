@@ -53,7 +53,6 @@ config ANDROID_BINDER_IPC_SELFTEST
 	  exhaustively with combinations of various buffer sizes and
 	  alignments.
 
-<<<<<<< HEAD
 config ANDROID_SIMPLE_LMK
 	bool "Simple Android Low Memory Killer"
 	depends on !ANDROID_LOW_MEMORY_KILLER && !MEMCG && !PSI
@@ -87,8 +86,6 @@ config ANDROID_SIMPLE_LMK_TIMEOUT_MSEC
 
 endif
 
-=======
->>>>>>> parent of 81b2cec361f6... issue : resolving cherry-pick issue
 endif # if ANDROID
 
 endmenu
